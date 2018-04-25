@@ -9,7 +9,7 @@
 # Returns the result
 def is_negative(number)
     if !number.is_a?(Integer)
-        return false
+        return nil
     else 
         return number < 0
     end
